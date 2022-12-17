@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, ParalexEffectDelegate {
+class ViewController: UIViewController, ParallaxEffectDelegate {
 
     let parser = Parser()
     var timeline = [Timeline]()

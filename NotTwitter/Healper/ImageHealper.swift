@@ -62,11 +62,11 @@ class CustomImageView: UIImageView {
 }
 
 
-protocol ParalexEffectDelegate {
+protocol ParallaxEffectDelegate {
    func  applyParallaxEffect(onView: UIView, magnitude: Int)
 }
 
-extension ParalexEffectDelegate {
+extension ParallaxEffectDelegate {
     func applyParallaxEffect(onView: UIView, magnitude: Int) {
         let xAxisEffect = UIInterpolatingMotionEffect(keyPath: "center.x", type: .tiltAlongHorizontalAxis)
         xAxisEffect.minimumRelativeValue = -magnitude

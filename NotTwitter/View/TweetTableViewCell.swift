@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TweetTableViewCell: UITableViewCell, ParalexEffectDelegate {
+class TweetTableViewCell: UITableViewCell, ParallaxEffectDelegate {
     private var regex = NSRegularExpression()
     private var characterPattern = "(?:#|@)\\w+"
 
