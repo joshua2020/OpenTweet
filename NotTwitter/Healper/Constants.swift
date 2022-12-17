@@ -13,7 +13,4 @@ public struct GlobalConstants {
     static let TweetDateColorGrey = UIColor(hexString: "#8f8b82")
     static let AvatarBorderColorBlue = UIColor(hexString: "#2986cc")
     static let AvatarShadowColorBlue = UIColor(hexString: "#103454")
-    static let TweetCollectionCellId = "tweetCell"
-    static let HeaderTweetCollectionCellId = "HeaderCell"
-    static let FooterTweetCollectionCellId = "FooterCell"
 }
