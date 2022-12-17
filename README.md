@@ -3,6 +3,8 @@
 This is a very simple twitter like client.
 
 Created this project using UIKit and UITableView on the latest iOS 16 version 
+- Steps to Run:
+- Can simply download or clone the project and build - run on your device or simulator
 
 - Parses the Json data for the timeline and tweets
 - Uses UITableview to display tweets
